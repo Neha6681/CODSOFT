@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/f42afa7b46.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/Neha.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Portfolio</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science Engineer</p>
+                <h1>Hi, I'm <span>Neha Chougale</span> From Kolhapur .
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----------------------About------------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/download.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <br>
+                    <hr>
+                    <p>I am a computer science engineer who wants to build a career in
+                        a highly esteemed organization and to work in a challenging
+                        and dynamic environment which will upgrade and enhance my
+                        technical skills and use it for the betterment of the organization.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------Portfolio--------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1>Know More</h1>
+            <br>
+            <hr>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p><br>
+                <p class="tab-links" onclick="opentab('expertise')">Expertise</p><br>
+                <p class="tab-links" onclick="opentab('position')">Positions of Responsibility</p><br>
+                <p class="tab-links" onclick="opentab('education')">Education</p><br>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>ANGULAR</li>
+                    <li>NODE JS</li>
+                    <li>MONGO DB</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="expertise">
+                <ul>
+                    <li>Team Leadership</li>
+                    <li>Smart Work</li>
+                    <li>Creativity</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="position">
+                <ul>
+                    <li>President EKS Radhanagari Tahsil</li>
+                    <li>Training and Placement Coordinator ,
+                        2022-2023</li>
+                    <li>NSS coordinator , 2021-2022</li>
+                    <li>Member of coding club , 2022-2023</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li>D Y PATIL College of Engineering & Technology , Kolhapur <br>
+                        B.Tech Computer Science and Engineering. <br>
+                        2019-2023 <br>
+                        Aggregate Marks : 79.77%</li>
+                    <li>The New College, Kolhapur<br>
+                        Higher Secondary School Certificate<br>
+                        June, 2018 - May 2019<br>
+                        Percentage : 58.46%
+                    </li>
+                    <li> Shivaji Highschool k|| Tarale <br>
+                        Higher Secondary School Certificate June, <br>
+                        2016 - May 2017 <br>
+                        Percentage : 91.60%</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------Projects----------------------- -->
+    <br><br>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-titles">My Projects</h1>
+            <br>
+            <hr>
+            <div class="project-list">
+
+                <div>
+                    <h2>Emojify Music</h2>
+                    <span>Android App to Recommend Music Based On Emotion</span>
+                    Dec, 2022- March,2023 <br>
+                    Final Year project <br>
+                    Role : UI design and Firebase <br>
+                    <p>
+                        Technologies : Android Studio,
+                        Java, Deep learning algorithms, Python, Tensorflow,
+                        Firebase
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>E commerce</h2>
+                    <span>Web application for village area</span>
+                    March, 2022- June ,2022<br>
+                    Domain Specific Project <br>
+                    <p>
+                        Role : UI and Database schema design
+                        Technologies : HTML, CSS, PHP, XAMPP, MySQL
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Tourist Management System</h2>
+                    April , 2021-May 2021<br>
+                    Mini project <br>
+                    <p>Technologies : C, File Handling</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------contact---------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titles">Contact Me</h1>
+                    <br>
+                    <hr>
+                    <p><i class="fa-regular fa-envelope"></i> nehachougale6681@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 7745895488</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="download-cv">
+                    <h3> Download My Resume Here .</h3>
+                    <br>
+                    <hr>
+                    <i class="fa-solid fa-download"></i>
+                    <a href="img/NEHA_CV.pdf (1).pdf" download class="btn">Download CV</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright: &copy; Neha <i class="fa-solid fa-heart"></i> </p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
